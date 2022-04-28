@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body >
+    <div id="main">
+        <div id="brand">CASIO</div>
+      <input id="input" value="0" type="number" disabled />
+      <div id="container">
+          <div id="num">
+              <div>
+                  <button onclick="cl(1)">1</button>
+                  <button onclick="cl(2)">2</button>
+                  <button onclick="cl(3)">3</button>
+              </div>
+              <div>
+                  <button onclick="cl(4)">4</button>
+                  <button onclick="cl(5)">5</button>
+                  <button onclick="cl(6)">6</button>
+              </div>
+              <div>
+                  <button onclick="cl(7)">7</button>
+                  <button onclick="cl(8)">8</button>
+                  <button onclick="cl(9)">9</button>
+              </div>
+              <div>
+                  <button onclick="cl('.')">.</button>
+                  <button onclick="cl(0)">0</button>
+                  <button onclick="cl('^')">^</button>
+              </div>
+          </div>
+          <div id="operation">
+                  <button id="plus" onclick="cl('+')">+</button>
+                  <button id="min" onclick="cl('-')">-</button>
+                  <button id="mult" onclick="cl('×')">×</button>
+                  <button id="div" onclick="cl('/')">/</button>
+                  <button id="eq" onclick="cl('=')">=</button>
+          </div>
+      </div></div>
+   
+   <script src="script.js"></script>
+</body>
+</html>
